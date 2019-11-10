@@ -25,7 +25,7 @@ async function testOnce() {
     should(config.challenge).be.a.String().and.not.empty();
     */
     config=
-    {"challenge": "aca5a28e3e72dc9d2655154b8c1a4809", "gt": "98443ddedafab16e689467f796c2c4d6", "new_captcha": true, "success": 1}
+    {"challenge": "a9325b41aa4ee9b67c09a99f02c3fb23", "gt": "98443ddedafab16e689467f796c2c4d6", "new_captcha": true, "success": 1}
     let gt = config.gt;
     let challenge = config.challenge;
     console.log(config)
